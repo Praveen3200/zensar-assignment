@@ -1,0 +1,7 @@
+D:\c#\day4assignment\day4project\day4project\bin\Debug\day4project.exe.config
+D:\c#\day4assignment\day4project\day4project\bin\Debug\day4project.exe
+D:\c#\day4assignment\day4project\day4project\bin\Debug\day4project.pdb
+D:\c#\day4assignment\day4project\day4project\obj\Debug\day4project.csproj.AssemblyReference.cache
+D:\c#\day4assignment\day4project\day4project\obj\Debug\day4project.csproj.CoreCompileInputs.cache
+D:\c#\day4assignment\day4project\day4project\obj\Debug\day4project.exe
+D:\c#\day4assignment\day4project\day4project\obj\Debug\day4project.pdb

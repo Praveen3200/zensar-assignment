@@ -19,7 +19,7 @@ namespace ConsoleApp1
             }
             else
             {
-                Console.ReadLine($" number {n} is odd", n);
+                Console.WriteLine($" number {n} is odd", n);
             }
             Console.ReadLine();
         }
