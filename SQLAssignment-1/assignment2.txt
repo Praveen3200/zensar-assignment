@@ -1,0 +1,74 @@
+---------------------------------ASSIGNMENT-2----------------------------
+
+--15. Retrieve a list of MANAGERS.
+select *from emp where Job='Manager'
+
+
+
+--16. Find out salary of both MILLER and SMITH.
+select empname,Sal from emp where empname ='Miller' or empname= 'Smith'
+
+
+
+--17. Find out the names and salaries of all employees earning more than 1000 per month.
+select empname,sal from emp where sal>1000
+
+
+
+--18. Display the names and salaries of all employees except JAMES.
+select empname,sal from emp where empname!='james'
+
+
+
+--19. Find out the details of employees whose names begin with ‘S’.
+select *from emp where empname like 'S%'
+
+
+
+--20. Find out the names of all employees that have ‘A’ anywhere in their name.
+select *from emp where empname like '%A%'
+
+
+
+--21. Find out the names of all employees that have ‘L’ as their third character in their name.
+select empname from emp where empname like '__L%'
+
+
+
+--21. Find out the names of the employees whose name begin with ‘A’ or ‘M’.
+select empname from emp where empname like 'A%' or empname like 'M%'
+
+
+
+--22. Compute yearly salary of SMITH.
+select empname,sal,(sal*12) 'Annual Sal' from emp where empname='Smith'
+
+
+
+--23. Compute daily salary of JONES.
+select sal,(sal/30) 'Per Day Sal' from emp where empname='Jones'
+
+
+
+--24. Calculate the total monthly salary of all employees.
+select sum(sal) 'Total Sal of Employees' from emp
+
+
+
+--25. Print the average annual salary.
+select avg(sal*12) 'Avg_Salaries_of_Emp' from emp
+
+
+
+--26. Select the name, job, salary, department number of all employees except SALESMAN from department number 30.
+select empname,job,sal,deptid from emp where job!='Salesman' and deptid=30
+
+
+
+--27. List unique departments of the EMP table.
+select distinct(deptid) from emp
+
+
+
+--28. List the name and salary of employees who earn more than 1500 and are in department 10 or 30. Label the columns Employee and Monthly Salary respectively.
+select empname 'Employee',sal 'Monthly Salary' from emp where sal>1500 and (deptid=10 or deptid=30 )
