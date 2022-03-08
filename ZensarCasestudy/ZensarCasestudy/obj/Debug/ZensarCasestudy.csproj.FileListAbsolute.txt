@@ -1,0 +1,7 @@
+C:\Users\AVULA sairam\source\repos\ZensarCasestudy\ZensarCasestudy\bin\Debug\ZensarCasestudy.exe.config
+C:\Users\AVULA sairam\source\repos\ZensarCasestudy\ZensarCasestudy\bin\Debug\ZensarCasestudy.exe
+C:\Users\AVULA sairam\source\repos\ZensarCasestudy\ZensarCasestudy\bin\Debug\ZensarCasestudy.pdb
+C:\Users\AVULA sairam\source\repos\ZensarCasestudy\ZensarCasestudy\obj\Debug\ZensarCasestudy.csproj.AssemblyReference.cache
+C:\Users\AVULA sairam\source\repos\ZensarCasestudy\ZensarCasestudy\obj\Debug\ZensarCasestudy.csproj.CoreCompileInputs.cache
+C:\Users\AVULA sairam\source\repos\ZensarCasestudy\ZensarCasestudy\obj\Debug\ZensarCasestudy.exe
+C:\Users\AVULA sairam\source\repos\ZensarCasestudy\ZensarCasestudy\obj\Debug\ZensarCasestudy.pdb
