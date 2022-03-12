@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace ASPAssignment2
+{
+    public partial class Dropdown : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!Page.IsPostBack)
+            {
+
+                string[] str = new string[] { "Select", "volkswagen", "Rangerover", "Ferrari", "BMW" };
+                for (int i = 0; i < str.Length; i++)
+                {
+                    DropDownList1.Items.Add(str[i]);
+                }
+            }
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            if (DropDownList1.SelectedValue == "volkswagen")
+            {
+                TextBox1.Text = "500000";
+            }
+            else if (DropDownList1.SelectedValue == "Rangerover")
+            {
+                TextBox1.Text = "800000";
+            }
+            else if (DropDownList1.SelectedValue == "Ferrari")
+            {
+                TextBox1.Text = "600000";
+            }
+            else if (DropDownList1.SelectedValue == "BMW")
+            {
+                TextBox1.Text = "900000";
+            }
+        }
+
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string str = DropDownList1.Text;
+            Image1.ImageUrl = "~/Images/" + str + ".JPG";
+        }
+
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
