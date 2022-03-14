@@ -1,0 +1,35 @@
+using MVCAssignment1.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace MVCAssignment1.Controllers
+{
+    public class CustomerController : Controller
+    {
+        // GET: Customer
+        NorthwindEntities ne = new NorthwindEntities();
+        public ActionResult Index()
+        {
+            return View();
+        }
+        public ActionResult C_Germany()
+        {
+            List<string> Customer = (from p in ne.Customers
+                                 where p.Country == "Germany"
+                                 select p.ContactName).ToList();
+            return View(Customer);
+        }
+        public ActionResult C_OrderID()
+        {
+            List<Customer> CUSTOMER = (from P in ne.Customers
+                                   join o in ne.Orders
+           on P.CustomerID equals o.CustomerID
+                                   where o.OrderID == 10248
+                                   select P).ToList();
+            return View(CUSTOMER);
+        }
+    }
+}
