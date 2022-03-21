@@ -1,0 +1,7 @@
+C:\Users\AVULA sairam\source\repos\CodeBasedTest1\CodeBasedTest1\bin\Debug\CodeBasedTest1.exe.config
+C:\Users\AVULA sairam\source\repos\CodeBasedTest1\CodeBasedTest1\bin\Debug\CodeBasedTest1.exe
+C:\Users\AVULA sairam\source\repos\CodeBasedTest1\CodeBasedTest1\bin\Debug\CodeBasedTest1.pdb
+C:\Users\AVULA sairam\source\repos\CodeBasedTest1\CodeBasedTest1\obj\Debug\CodeBasedTest1.csproj.AssemblyReference.cache
+C:\Users\AVULA sairam\source\repos\CodeBasedTest1\CodeBasedTest1\obj\Debug\CodeBasedTest1.csproj.CoreCompileInputs.cache
+C:\Users\AVULA sairam\source\repos\CodeBasedTest1\CodeBasedTest1\obj\Debug\CodeBasedTest1.exe
+C:\Users\AVULA sairam\source\repos\CodeBasedTest1\CodeBasedTest1\obj\Debug\CodeBasedTest1.pdb
